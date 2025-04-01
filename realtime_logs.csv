@@ -1,0 +1,7 @@
+Timestamp,Source IP,Destination IP,Protocol,Port,Action,Threat Type
+2025-04-01 10:00:00,192.168.1.100,10.0.0.5,TCP,80,Blocked,DoS
+2025-04-01 10:05:00,192.168.1.102,10.0.0.7,UDP,53,Allowed,None
+2025-04-01 10:10:00,192.168.1.110,10.0.0.15,TCP,443,Allowed,None
+2025-04-01 10:15:00,192.168.1.120,10.0.0.20,TCP,22,Blocked,Brute Force
+2025-04-01 10:20:00,192.168.1.130,10.0.0.25,TCP,80,Allowed,None
+2025-04-01 10:25:00,192.168.1.140,10.0.0.30,ICMP,0,Blocked,Ping Flood
